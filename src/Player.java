@@ -6,6 +6,11 @@ public class Player {
         this.score = score;
     }
 
+    @Override
+    public String toString(){
+        return "Name: " + name +", Score: " + score;
+    }
+
     public String getName() {
         return name;
     }
